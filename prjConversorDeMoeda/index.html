@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Conversor de Moedas</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/conversorDeMoeda.js"></script>
+</head>
+
+<div class="container">
+  <h1 class="page-title">
+    Conversor de Moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em real e dolar
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+  <label for="moeda">Converter Dolar em Real</label><br>
+  <input type="number" id="valorDolar" size="2" /><br>
+  <button type="submit" onclick="ConverterDolar()">Converter</button>
+  <h2 id="valorConvertido1"></h2>
+
+  <label for="moeda">Converter Real em Dolar</label><br>
+  <input type="number" id="valorReal" size="2" /><br>
+  <button type="submit" onclick="ConverterReal()">Converter</button>
+  <h2 id="valorConvertido2"></h2>
